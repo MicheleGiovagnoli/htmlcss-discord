@@ -151,6 +151,15 @@
     text-align: center;
     padding: 30px 0px 50px 0px;
 }
+.end-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.bg-blue{
+    background-color:#7289DA ;
+    color: white;
+}
 /* ----MAIN---- */
 
 
