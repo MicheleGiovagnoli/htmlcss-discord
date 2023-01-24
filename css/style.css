@@ -38,7 +38,7 @@
 
 
 .header-bottom{
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -162,7 +162,7 @@
 
 
 .stars{
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 45%;
@@ -252,3 +252,10 @@
     color: #6C7CBA;
 }
 /* FOOTER */
+
+  
+.wave{
+    background-image: url(/img/wave.svg);
+    height: 30px;
+    opacity: 0.02;
+}
