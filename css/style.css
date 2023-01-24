@@ -1,0 +1,136 @@
+/* REGOLE DI BASE */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* REGOLE DI BASE */
+
+/* DE-BUGG */
+.debugg{
+    background-color: orange;
+    border: 3px dotted black;
+}
+.debugg-2{
+    background-color: brown;
+    border: 3px dotted black;
+}
+.debugg-3{
+    background-color: aqua;
+    border: 3px dotted black;
+}
+/* DE-BUGG */
+
+/* HEADER */
+.header-top{
+    background-color: aqua;
+    /* RIMUOVERE */
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.container-header-top{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+.header-bottom{
+    background-image: url(/img/jumbo.png);
+    background-size: 100%;
+    /* RIMUOVERE */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-header-bottom{
+    width: 50%;
+    /* RIMUOVERE */
+    height: 70%;
+}
+/* HEADER */
+
+/*---- MAIN---- */
+.section{
+    background-color: white;
+    /* RIMUOVERE */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 70%;
+    /* RIMUOVERE */
+    height: 80%;
+}
+.bg-grey{
+    background-color: rgb(144, 143, 143);
+}
+.item-1{
+    flex-grow: 2;
+}
+.item-2{
+    flex-grow: 1;
+}
+.section .item-reverse-1{
+    flex-grow: 1;
+}
+.section .item-reverse-2{
+    flex-grow: 2;
+}
+
+.section-big{
+    background-color: rgb(144, 143, 143);
+    /* RIMUOVERE */
+    padding: 450px;     
+}
+.container-big{
+    /* RIMUOVERE */
+    padding: 400px;
+}
+/* ----MAIN---- */
+
+
+/* FOOTER */
+.footer-top{
+    background-color: rgb(0, 0, 0);
+
+}
+.container-footer-top{
+    display: flex;
+    align-items: stretch;
+}
+.column1{
+    flex-grow: 2;
+}
+.column2{
+    flex-grow: 1;
+}
+.column3{
+    flex-grow: 1;
+}
+.column4{
+    flex-grow: 1;
+}
+.column5{
+    flex-grow: 1;
+}
+.footer-bottom{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    /* RIMUOVERE */
+    padding: 10px;
+}
+.footer-bottom-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* RIMUOVERE */
+    padding: 10px 0px;
+}
+/* FOOTER */
