@@ -23,18 +23,18 @@
 
 /* HEADER */
 .header-top{
-    background-color: aqua;
-    /* RIMUOVERE */
-    height: 60px;
+    background-color: #255EE9;
     display: flex;
     align-items: center;
 }
 .container-header-top{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 85%;
     margin: auto;
     padding: 10px;
+    color: white;
 }
 .header-bottom{
     background-image: url(/img/jumbo.png);
@@ -50,6 +50,20 @@
     /* RIMUOVERE */
     height: 70%;
 }
+.container-header-top ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.container-header-top li{
+    padding: 0px 5px;
+}
+.button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
 /* HEADER */
 
 /*---- MAIN---- */
